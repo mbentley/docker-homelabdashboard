@@ -27,6 +27,6 @@ Example usage:
      -p 80:80 \
      --restart=unless-stopped \
      -v /path/to/my/dat/files/settingsbookmarks.dat:/var/www/settingsbookmarks.dat \
-     -v /path/to/my/dat/files/settingsbookmarks.dat:/var/www/settingsgeneral.dat \
+     -v /path/to/my/dat/files/settingsgeneral.dat:/var/www/settingsgeneral.dat \
      mbentley/homelabdashboard
    ```
